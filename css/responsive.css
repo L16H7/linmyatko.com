@@ -105,4 +105,9 @@
   header.header-top[role="header"] hgroup nav .navbar-toggle {
     top: 7px;
   }
+
+
+  .section-two section figure {
+    background-position: 85% 0;
+  }
 }
