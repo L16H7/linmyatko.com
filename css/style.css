@@ -537,3 +537,7 @@ h4 {
   font-family: 'Lato';
   line-height: 1.4 !important;
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff !important;
+}

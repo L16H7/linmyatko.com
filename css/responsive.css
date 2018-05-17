@@ -104,6 +104,7 @@
 @media (max-width: 767px) {
   header.header-top[role="header"] hgroup nav .navbar-toggle {
     top: 7px;
+    background-color: #66BB6A;
   }
 
 
