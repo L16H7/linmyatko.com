@@ -212,7 +212,7 @@ $(document).ready(function() {
             data: {
               'key': 'MaH7sjf3tK6IxpPYLkzoeA',
               'message': {
-                'from_email': 'YOUR@EMAIL.HERE',
+                'from_email': 'okkarmin@gmail.com',
                 'to': [
                     {
                       'email': 'linmyatko@hotmail.com',
