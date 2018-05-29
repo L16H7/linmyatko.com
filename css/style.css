@@ -541,3 +541,18 @@ h4 {
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #fff !important;
 }
+
+table, th, td {
+  border: 1px solid black;
+  font-size: 30px;
+  padding: 5px;
+} 
+
+.table-dark {
+  color: #fff;
+  background-color: #212529;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+  background-color: #484747 !important;
+}
