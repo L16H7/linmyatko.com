@@ -13,15 +13,17 @@
   <div class="main-window" id="vocab-body" style="display: block;">
     <h2>JLPT Level N5 Vocabulary List</h2>
     <table cellpadding="3" cellspacing="1" class="table table-striped table-dark">
-      <tbody>
+      <thead>
         <tr>
-          <th>#</th>
-          <th width="20%">Kana</th>
-          <th width="15%">Kanji</th>
-          <th width="10%">Type</th>
-          <th width="55%">Definition/s</th>
+          <th>number</th>
+          <th width="20%">kana</th>
+          <th width="15%">kanji</th>
+          <th width="10%">type</th>
+          <th width="55%">definition</th>
         </tr>
-        <tr class="row0" id="0">
+      </thead>
+      <tbody>
+       <tr class="row0" id="0">
           <td class="pos">
             0
           </td>
@@ -12387,6 +12389,12 @@
   </div>
   </div>
 
+  <script src="parseTable.js"></script>
+  <script>
+    var table = document.querySelector("table");
+    var data  = parseTable(table);
+    console.log(data);
+  </script>
 </body>
 
 </html>
