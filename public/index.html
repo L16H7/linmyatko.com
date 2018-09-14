@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1>Lin Myat Ko</h1>
+      </div>
+      <div class="personal">
+        <div>
+          <a href="#">
+            <i class="far fa-envelope"></i>
+            linmyatko@hotmail.com
+          </a>
+        </div>
+        <div>
+          <a href="https://medium.com/@linmyatko" target="_blank">
+            <i class="fab fa-medium"></i>
+            https://medium.com/@linmyatko
+          </a>
+        </div>
+        <div>
+          <a href="https://github.com/L16H7" target="_blank">
+            <i class="fab fa-github"></i>
+            https://github.com/L16H7
+          </a>
+        </div>
+      </div>  
+    </div>
+  </body>
+  <style>
+    body {
+      margin: 0;
+    }
+    .container {
+      margin: 4% 10%;
+      display: flex;
+      flex-direction: column;
+    }
+    .container h1 {
+      font-family: 'Merienda', cursive;
+    }
+    a {
+      font-family: 'Lato', sans-serif;
+      text-decoration: none;
+      color: black;
+      font-size: 25px;
+    }
+    .personal div {
+      margin: 20px 0px;
+    }
+    @media screen and (max-width: 500px) {
+      .container {
+        align-items: center;
+      }
+      .container > h1 {
+        margin: 0 auto; 
+        margin-top: 20%;
+      }
+      a {
+        font-size: 15px;
+      }
+    }
+
+    @media 
+    (-webkit-min-device-pixel-ratio: 2), 
+    (min-resolution: 192dpi) { 
+    /* Retina-specific stuff here */
+      h1 {
+        font-size: 70px;
+      }
+      .container {
+        align-items: center;
+      }
+      a {
+        font-size: 40px;
+      }
+    }
+  </style>
+</html>
